@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  font-size: 20px;
+  text-align: center;
+  background-color: #e2caca;
+  height: 40px;
+  line-height: 40px;
+  color: black;
+  position: fixed;
+  /* height: auto; */
+  width: 100%;
+  top: 0%;
+}
+.flipbox {
+  background-color: rgba(226, 202, 202, 0.3);
+  margin-top: 70px;
+  justify-content: space-around;
+  display: flex;
+  box-sizing: border-box;
+  height: 410px;
+}
+.iteam1 {
+  float: left;
+  box-shadow: 0px 0px 10px rgb(125, 117, 117);
+  border: transparent;
+  border-radius: 8px;
+  height: 335px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.iteam2 {
+  float: inline-start;
+  clear: none;
+  box-shadow:  0px 0px 10px rgb(125, 117, 117);
+  border: transparent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 335px;
+  margin-top: 40px;
+}
+.iteam3 {
+  box-shadow: 0px 0px 10px rgb(125, 117, 117);
+  border: transparent;
+  border-radius: 8px;
+  height: 335px;
+  margin-top: 40px;
+}
+img {
+  border: transparent;
+  /* border-radius: 8px; */
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.flipbox p{
+    font-weight:lighter;
+    font-size: 18px;
+    margin-left: 48px;
+    margin-top: 5px;
+    color: rgb(2, 104, 2);
+}
+.flipbox del{
+    color: grey;
+    margin-left: 75px;
+    line-height: 25px;
+}
+.flipbox span{
+    font-weight: lighter;
+    margin-left: 10px;
+    /* margin-top: px */
+    color: rgb(176, 107, 107);
+}
+.flipbox button{
+    color: black;
+    margin-left: 55px;
+    margin-top:2px;
+    background-color: rgb(222, 123, 85);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding: 20px; */
+    border: transparent;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 1s;
+    transform: scale(0.8);
+    /* transform-origin: 2px; */
+   
+}
+
+
