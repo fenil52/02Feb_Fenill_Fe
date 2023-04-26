@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animation</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+        margin-top: 250px;
+        margin-left: 40%;
+      }
+      div {
+        height: 50px;
+        width: 50px;
+        /* background-color: white; */
+        border-radius: 50%;
+        display: inline-flex;
+        margin-left: 7px;
+        animation-name: fenil;
+        animation-duration: 2s;
+        /* animation-delay: 2s; */
+        animation-iteration-count: infinite;
+        /* animation-direction: alternate-reverse; */
+      }
+      @keyframes fenil {
+        0% {
+          background-color: aqua;
+          transform: scale(0.2);
+        }
+
+        40% {
+          background-color: rgb(35, 214, 214);
+          transform: scale(0.9);
+        }
+        60% {
+          background-color: blue;
+          transform: scale(0.9);
+        }
+        100% {
+          background-color: aqua;
+          transform: scale(0.2);
+        }
+      }
+      .div1 {
+        animation-delay: 0s;
+      }
+      .div2 {
+        animation-delay: 0.2s;
+      }
+      .div3 {
+        animation-delay: 0.4s;
+      }
+      .div4 {
+        animation-delay: 0.6s;
+      }
+      .div5 {
+        animation-delay: 0.8s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+  </body>
+</html>
