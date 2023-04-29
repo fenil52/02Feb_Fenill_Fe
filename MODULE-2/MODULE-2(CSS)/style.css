@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+center{
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    margin-top: 18px;
+    border: 2px black solid;
+    box-shadow: 0px 0px 5px rgb(226, 106, 106);
+}
+.que1{
+    margin-top: 10px;
+}
+.que1 p{
+    font-weight: bold;
+}
+.que3{
+    margin-top: 10px;
+}
+.que2{
+margin-top: 10px;
+}
+.ans2 h3{
+    color: brown;
+}
+.ans{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: antiquewhite; */
+    color: rgb(45, 40, 40);
+    font-weight: bold;
+}
+.ans3{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: antiquewhite; */
+    color: rgb(45, 40, 40);
+    
+}
+.ans3 u,span{
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ans7 span{
+    color: brown;
+}
+.ans9 u{
+    color: brown;
+}
+.ans10 u{
+    color: brown;
+}
+.ans11 u{
+    color: brown;
+}
+.ans13 span{
+    color: brown;
+}
+.internal{
+    margin-left: 40px;
+}
+.ans16 h2{
+  color: brown;
+}
+
+
+   
