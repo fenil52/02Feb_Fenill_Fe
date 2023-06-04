@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">    
+    <script src="https://kit.fontawesome.com/81d73e8e4d.js" crossorigin="anonymous"></script>
+    <title>QUESTION=4</title>
+</head>
+<body>
+    <!-- QUESTION-4 -->
+
+    <section class="que que4">
+        <h2><b>QUE:4</b>&nbsp;Canvas and SVG tags...</h2>
+    </section>
+    <hr>
+
+    <!-- ANS -->
+
+    <section class="ans4">
+        <p>SVG is a Scalable Vector Graphics.. <br>canvas is raster base graphics.. <br>
+            SVG is an XML-based vector graphics format that allows for the creation of scalable and interactive graphics. It uses XML to describe the shapes, lines, colors, and other graphical elements. SVG graphics can be scaled without losing quality. <br> </p> <br>
+
+            <!-- example -->
+
+    <b>Example Of Svg:</b> <br>
+    <svg width="200" height="200">
+        <rect x="50" y="50" width="100" height="100" fill="red" />
+        <circle cx="150" cy="150" r="50" fill="blue" />
+      </svg> <br>
+      <p>In this example, an SVG element is used to create a red square (<rect>) and a blue circle (<circle>). The width and height attributes define the size of the SVG canvas, and the various shape elements define the graphical elements within the canvas.</p> <br>
+
+    <b>Example Of Canvas:</b> <br>
+    <canvas id="myCanvas" width="200" height="200"></canvas> <br>
+    <script>
+
+        // Get the canvas element
+        var canvas = document.getElementById("myCanvas");
+
+        // Get the rendering context of the canvas
+        var ctx = canvas.getContext("2d");
+         
+        ctx.font = "50px arial";
+        ctx.strokeText("Hello", 80, 150);
+    </script> 
+
+    <p>In This Example we create normaly text image using javascript nd canvas tag..</p>  
+    </section> <br>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+        <!-- review box -->
+
+    <div class="container" style="margin-top: 41px;">
+        <h1 style="font-size: 25px;" >Don't Forget To Give Rating</h1>
+        <!-- Stars -->
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+    </div>
+    <!-- Thank You Message -->
+    <h1 id="msg" style="padding: 20px ;"></h1>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+ 
+
+<!-- script -->
+    <script>
+        
+     // All Stars to NodeList
+let stars = document.querySelectorAll(".stars i");
+
+// Thank You Massage
+let msg = document.querySelector("#msg");
+
+// Loops through star NodeList
+stars.forEach((star, index1) => {
+
+    // Function when click events triggers
+    star.addEventListener("click", () => {
+
+        // Loop through stars NodeList again
+        stars.forEach((star, index2) => {
+            // Adding Color Stars
+            if (index1 >= index2) {
+                star.classList.add("color-star");
+                msg.innerHTML = "Thank You &#128077;"
+            } else {
+                star.classList.remove("color-star")
+            }
+        })
+    })
+})
+    </script>
+
+    <hr>
+</body>
+</html>
+    
